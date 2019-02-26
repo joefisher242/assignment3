@@ -1,0 +1,44 @@
+.cis260special {
+    color: black;      
+}
+
+.homepagered {
+    color: red;
+}
+
+#cis-special-parent a {
+    color: #90622c;    
+}
+
+#context p {
+    color: orange;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+.icy {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
+
+body {
+    background-repeat: no-repeat;      
+}
+
+.nazpurple {
+    color: #8710c6;
+}
+
+.nazgold {
+    color: #bab35b;
+}
