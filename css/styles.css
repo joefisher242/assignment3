@@ -25,6 +25,8 @@ a {
 
 h1 {
     text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
 }
 
 footer {
@@ -41,4 +43,15 @@ body {
 
 .nazgold {
     color: #bab35b;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 40rem) {
+    header {
+        flex-direction: column;
+    }    
 }
