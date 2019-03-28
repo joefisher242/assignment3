@@ -1,9 +1,59 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo {
+    padding: .5em;
+    height: 5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: .5em;
+}
+
+body {
+    background-repeat: no-repeat;      
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: right;
+}
+
+
 .cis260special {
-    color: black;      
+    color: black;
+/*    border: 2px solid;*/
+    background-color: white;
 }
 
 .homepagered {
     color: red;
+}
+
+.blood {
+    color: red
 }
 
 #cis-special-parent a {
@@ -23,35 +73,30 @@ a {
     color: white;
 }
 
-h1 {
-    text-align: center;
-    border: 2px solid #ffffff;
-    border-radius: 15px;
-}
-
-footer {
-    text-align: right;
-}
-
-body {
-    background-repeat: no-repeat;      
-}
-
 .nazpurple {
     color: #8710c6;
+    border: 2px solid #000000;
+    
 }
 
 .nazgold {
     color: #bab35b;
+    font-size: 1.2em;
+    border: 2px solid #000000;
+    background-color: white;
 }
 
-header {
-    display: flex;
-    align-items: center;
+.blood {
+    font-size: 1.2em;
+    border: 2px solid #000000;
+    background-color: black;
+    text-align: center;
 }
 
-@media screen and (max-width: 40rem) {
-    header {
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer {
         flex-direction: column;
     }    
 }
