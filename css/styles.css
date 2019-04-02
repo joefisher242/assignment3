@@ -64,10 +64,19 @@ footer {
     color: orange;
 }
 
+a:link {
+    color: white
+}
+
+a:hover {
+    color: aqua
+}
+
 a {
     color: white;
     font-size: 18px;
 }
+
 
 .icy {
     color: white;
